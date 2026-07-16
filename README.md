@@ -24,7 +24,6 @@ Currently working on:
 
 **My Philosophy:** Ship → Learn → Iterate. I believe in learning by building, founder-first thinking, and actually solving real problems instead of chasing trends.
 
-Based in India 🇮🇳 • Working from home 🏠 • Always learning, always building 🚀
 
 ---
 
@@ -76,8 +75,9 @@ Based in India 🇮🇳 • Working from home 🏠 • Always learning, always b
 - Building in India's tech ecosystem
 
 **📧 Email:** K.vinitkarmkar@gmail.com
+
 ![Visitors](https://komarev.com/ghpvc/?username=kvinitkarmkar&color=blue&style=flat-square)
-**Last Updated:** July 2026
+
 </div>
 
 ---
@@ -85,11 +85,9 @@ Based in India 🇮🇳 • Working from home 🏠 • Always learning, always b
 <div align="center">
 
 ## 🚀 Let's Build Something Amazing Together
-
+**P.S.** - If you're interested in adaptive learning, engineering education, or just building cool stuff, let's connect! 🤝
 [⬆ Back to Top](#-hey-im-vinit-karmkar)
 
 </div>
 
 ---
-
-**P.S.** - If you're interested in adaptive learning, engineering education, or just building cool stuff, let's connect! 🤝
