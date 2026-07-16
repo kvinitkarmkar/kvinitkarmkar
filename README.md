@@ -28,49 +28,16 @@ Based in India 🇮🇳 • Working from home 🏠 • Always learning, always b
 
 ---
 
-## 🧑‍💻 Skills
-
-<div align="center">
-
-### Languages & Core Tech
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### Frameworks & Tools
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37726?style=for-the-badge&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-### Specializations
-![AI/ML](https://img.shields.io/badge/AI%2FML-FF6F61?style=for-the-badge)
-![EdTech](https://img.shields.io/badge/EdTech-4CAF50?style=for-the-badge)
-![RAG Systems](https://img.shields.io/badge/RAG%20Systems-00D4FF?style=for-the-badge)
-![Knowledge Graphs](https://img.shields.io/badge/Knowledge%20Graphs-9C27B0?style=for-the-badge)
-
-</div>
-
----
-
 ## 🚀 Featured Projects
 
-### 🧠 **KnoriX** | Adaptive Intelligence Delivery Network
-```
-Status: In Development | Type: EdTech Platform
-```
-- Building an intelligent learning platform with node-based rendering architecture
+### 🧠 **Project Alpha** | Adaptive Intelligence Delivery Network
+- Building an intelligent learning platform with advanced architecture
 - Personalizes learning paths based on individual patterns and learning styles
-- Focus: Making education adaptive, not one-size-fits-all
-- **Impact Goal:** Transform how people learn technical and professional skills
+- **Status:** Active Development
 
 ### ⛏️ **MinersBuddy** | Mining Engineering Learning Platform
-```
-Status: In Development | Type: Educational Backend
-```
-- Python FastAPI backend with 70+ files of structured curriculum
+- Python FastAPI backend with structured curriculum
 - Making mining engineering education accessible and practical
-- Bridges gap between theory and real-world engineering challenges
 - **Tech Stack:** Python, FastAPI, Database
 
 ### 📊 **Knowledge Graph**
@@ -90,58 +57,13 @@ Status: In Development | Type: Educational Backend
 
 ---
 
-## 🏆 Achievements & GitHub Stats
-
-<div align="center">
-
-### 📊 GitHub Analytics
-
-[![Vinit's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kvinitkarmkar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/kvinitkarmkar)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kvinitkarmkar&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/kvinitkarmkar)
-
-### 🎯 Key Milestones
-- 🚀 Founded KnoriX - Adaptive Learning Platform
-- ⛏️ Launched MinersBuddy - Engineering Education Platform
-- 📚 Building in public, learning from the community
-- 💡 Focused on capital allocation & founder economics
-- 🌍 Based in India, serving global learners
-
-### 🔗 Social Reach
-- **LinkedIn Followers:** [Follow](https://linkedin.com/in/kvinitkarmkar)
-- **Twitter Community:** [@kvinitkarmkar](https://x.com/kvinitkarmkar)
-- **YouTube:** [@kvinitkarmkar](https://youtube.com/@kvinitkarmkar)
-- **Instagram:** [@kvinitkarmkar](https://instagram.com/kvinitkarmkar)
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-```
-My GitHub Contributions (Last Year)
-Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec
-█░░  ███  ░█░  ███  ██░  ███  ███  ░██  ███  ██░  ░░░  ░░░
-```
-
-**Total Contributions:** Building consistently | **Current Streak:** Active Development
-
-*Check out my [contribution activity](https://github.com/kvinitkarmkar) for real-time updates*
-
-</div>
-
----
-
 ## 📫 Contact & Socials
 
 <div align="center">
 
 ### Let's Connect! 🤝
 
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kvinitkarmkar@gmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:K.vinitkarmkar@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kvinitkarmkar)
 [![X/Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kvinitkarmkar)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@kvinitkarmkar)
@@ -155,7 +77,7 @@ Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec
 - Capital allocation strategies
 - Building in India's tech ecosystem
 
-**📧 Email:** kvinitkarmkar@gmail.com
+**📧 Email:** K.vinitkarmkar@gmail.com
 
 </div>
 
@@ -185,41 +107,6 @@ Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec
 - 🚀 Building in Public - Journey Notes (On YouTube)
 
 *Follow my channels for updates on learning, building, and founder insights*
-
----
-
-## 🎨 Tech Stack Visual
-
-```
-┌─────────────────────────────────────────┐
-│         KNORIX Architecture             │
-├─────────────────────────────────────────┤
-│  Frontend: JavaScript, HTML/CSS         │
-│  Backend: Python, FastAPI               │
-│  Core: Adaptive AIDN Engine             │
-│  Data: Knowledge Graphs, RAG Systems    │
-└─────────────────────────────────────────┘
-
-┌─────────────────────────────────────────┐
-│      MINERSBUDDY Stack                  │
-├─────────────────────────────────────────┤
-│  Language: Python                       │
-│  Framework: FastAPI                     │
-│  Architecture: RESTful API (70+ files)  │
-│  Focus: Mining Engineering Education   │
-└─────────────────────────────────────────┘
-```
-
----
-
-## 🎯 Current Goals
-
-- [ ] Launch KnoriX beta version
-- [ ] Expand MinersBuddy curriculum
-- [ ] Build knowledge graph infrastructure
-- [ ] Establish EdTech community
-- [ ] Develop founder finance course
-- [ ] Reach 1000+ active learners
 
 ---
 
