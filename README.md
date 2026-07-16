@@ -1,10 +1,8 @@
 # 👋 Hey, I'm Vinit Karmkar
 
 <div align="center">
-
-![Banner](https://img.shields.io/badge/Building%20Adaptive%20Learning%20Platforms-FF6B6B?style=flat-square&logo=lightning&logoColor=white)
-![Location](https://img.shields.io/badge/📍%20India-4CAF50?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Actively%20Building-00D4FF?style=flat-square)
+  
+![Banner](https://img.shields.io/badge/Building%20Adaptive%20Intelligence%20Delivery%20Network%20(AIDN)-FF6B6B?style=flat-square&logo=lightning&logoColor=white)
 
 **Founder • Full-Stack Builder • EdTech Enthusiast**
 
