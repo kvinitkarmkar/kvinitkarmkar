@@ -76,7 +76,8 @@ Based in India 🇮🇳 • Working from home 🏠 • Always learning, always b
 - Building in India's tech ecosystem
 
 **📧 Email:** K.vinitkarmkar@gmail.com
-
+![Visitors](https://komarev.com/ghpvc/?username=kvinitkarmkar&color=blue&style=flat-square)
+**Last Updated:** July 2026
 </div>
 
 ---
@@ -84,12 +85,6 @@ Based in India 🇮🇳 • Working from home 🏠 • Always learning, always b
 <div align="center">
 
 ## 🚀 Let's Build Something Amazing Together
-
-![Visitors](https://komarev.com/ghpvc/?username=kvinitkarmkar&color=blue&style=flat-square)
-
-**Last Updated:** July 2026
-
-*"Build → Learn → Iterate → Repeat"*
 
 [⬆ Back to Top](#-hey-im-vinit-karmkar)
 
