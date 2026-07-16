@@ -59,8 +59,6 @@ Based in India 🇮🇳 • Working from home 🏠 • Always learning, always b
 
 ## 📫 Contact & Socials
 
-<div align="center">
-
 ### Let's Connect! 🤝
 
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:K.vinitkarmkar@gmail.com)
@@ -80,33 +78,6 @@ Based in India 🇮🇳 • Working from home 🏠 • Always learning, always b
 **📧 Email:** K.vinitkarmkar@gmail.com
 
 </div>
-
----
-
-## 🌐 Portfolio & Online Presence
-
-<div align="center">
-
-| Platform | Link | Status |
-|----------|------|--------|
-| **GitHub** | [kvinitkarmkar](https://github.com/kvinitkarmkar) | 🟢 Active |
-| **LinkedIn** | [in/kvinitkarmkar](https://linkedin.com/in/kvinitkarmkar) | 🟢 Active |
-| **X (Twitter)** | [@kvinitkarmkar](https://x.com/kvinitkarmkar) | 🟢 Active |
-| **YouTube** | [@kvinitkarmkar](https://youtube.com/@kvinitkarmkar) | 🟢 Active |
-| **ORCID Profile** | [0009-0006-0377-1398](https://orcid.org/0009-0006-0377-1398) | 🟢 Verified |
-
-</div>
-
----
-
-## 📝 Latest Articles & Resources
-
-- 🧠 Building Adaptive Learning Systems (In Progress)
-- ⛏️ Mining Engineering Education in 2026 (In Progress)
-- 📊 Founder Finance & Capital Allocation (Research Phase)
-- 🚀 Building in Public - Journey Notes (On YouTube)
-
-*Follow my channels for updates on learning, building, and founder insights*
 
 ---
 
