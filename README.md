@@ -20,7 +20,7 @@ Currently working on:
 - 🧠 **Project K** - An Adaptive Intelligence Delivery Network (AIDN) that personalizes learning experiences
 - ⛏️ **MinersBuddy** - Making mining engineering education accessible through intelligent platforms
 
-**My Philosophy:** Ship → Learn → Iterate. I believe in learning by building, founder-first thinking, and actually solving real problems instead of chasing trends.
+**My Philosophy:** Ship → Learn → Iterate. I believe in learning by building. I question what exists, then build what should.
 
 
 ---
