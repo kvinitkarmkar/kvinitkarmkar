@@ -19,7 +19,7 @@
 Hey! I'm a founder obsessed with building products at the intersection of **adaptive learning systems** and **practical education**. 
 
 Currently working on:
-- 🧠 **KnoriX** - An Adaptive Intelligence Delivery Network (AIDN) that personalizes learning experiences
+- 🧠 **Project K** - An Adaptive Intelligence Delivery Network (AIDN) that personalizes learning experiences
 - ⛏️ **MinersBuddy** - Making mining engineering education accessible through intelligent platforms
 
 **My Philosophy:** Ship → Learn → Iterate. I believe in learning by building, founder-first thinking, and actually solving real problems instead of chasing trends.
@@ -86,8 +86,9 @@ Currently working on:
 
 ## 🚀 Let's Build Something Amazing Together
 **P.S.** - If you're interested in adaptive learning, engineering education, or just building cool stuff, let's connect! 🤝
+
+---
+
 [⬆ Back to Top](#-hey-im-vinit-karmkar)
 
 </div>
-
----
