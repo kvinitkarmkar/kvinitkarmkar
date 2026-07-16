@@ -27,7 +27,7 @@ Currently working on:
 
 ## 🚀 Featured Projects
 
-### 🧠 **Project Alpha** | Adaptive Intelligence Delivery Network
+### 🧠 **Project K** | Adaptive Intelligence Delivery Network
 - Building an intelligent learning platform with advanced architecture
 - Personalizes learning paths based on individual patterns and learning styles
 - **Status:** Active Development
