@@ -40,7 +40,7 @@ Currently working on:
 | 🏆 **UIDAI Hackathon 2026** | Data-driven hackathon project solving real-world problems using data | Jupyter Notebook | ✅ Completed |
 
 ---
-![description](./assets/1_CRoQ6gP6uueRcECoyhSxXw.gif)
+<img src="./assets/1_CRoQ6gP6uueRcECoyhSxXw.gif" width="480" alt="description"/>
 ---
 
 ## 📫 Contact & Socials
