@@ -10,7 +10,7 @@
 
 **Founder • Full-Stack Builder • EdTech Enthusiast**
 
-*Building intelligent learning systems and engineering education platforms that actually solve problems*
+*Building intelligent learning platforms that actually solve problems*
 
 </div>
 
