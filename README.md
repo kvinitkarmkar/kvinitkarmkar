@@ -33,11 +33,11 @@ Currently working on:
 
 | Project | Description | Stack | Status |
 |---|---|---|---|
-| 🧠 **Project K** | Adaptive Intelligence Delivery Network — personalizes learning paths based on individual patterns and learning styles | Advanced learning architecture | 🟢 Active |
-| ⛏️ **MinersBuddy** | Mining engineering education platform with a structured, backend-driven curriculum | Python, FastAPI, Database | 🟢 Active |
-| 📊 **Knowledge Graph** | Semantic knowledge representations for intelligent, graph-based learning and better information retention | Graph architecture | 🟢 Active |
-| 🤖 **RAG App UI** | Retrieval Augmented Generation interface exploring modern AI-powered learning interactions | HTML, JavaScript, Modern Web Stack | 🔵 Exploring |
-| 🏆 **UIDAI Hackathon 2026** | Data-driven hackathon project solving real-world problems using data | Jupyter Notebook | ✅ Completed |
+| **Project K** | Adaptive Intelligence Delivery Network — personalizes learning paths based on individual patterns and learning styles | Advanced learning architecture | 🟢 Active |
+| **MinersBuddy** | Mining engineering education platform with a structured, backend-driven curriculum | Python, FastAPI, Database | 🟢 Active |
+| **Knowledge Graph** | Semantic knowledge representations for intelligent, graph-based learning and better information retention | Graph architecture | 🟢 Active |
+| **RAG App** | Retrieval Augmented Generation interface exploring modern AI-powered learning interactions | HTML, JavaScript, Modern Web Stack | 🔵 Exploring |
+| **UIDAI Hackathon 2026** | Data-driven hackathon project solving real-world problems using data | Jupyter Notebook | ✅ Completed |
 
 ---
 
