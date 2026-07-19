@@ -1,3 +1,4 @@
+<a name="top"></a>
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Vinit%20Karmkar&fontSize=40&fontColor=fff&animation=fadeIn&desc=Founder%20%7C%20Full-Stack%20Builder%20%7C%20EdTech&descAlignY=75&descSize=18" width="100%"/>
@@ -89,10 +90,8 @@ Currently working on:
 
 ## 🚀 Let's Build Something Amazing Together
 
-<img src="./assets/network-graph.gif" width="220" alt="network graph animation small"/>
-
 **P.S.** — If you're interested in adaptive learning, engineering education, or just building cool stuff, let's connect! 🤝
 
-[⬆ Back to Top](#-hey-im-vinit-karmkar)
+[⬆ Back to Top](#top)
 
 </div>
