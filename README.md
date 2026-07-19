@@ -41,21 +41,6 @@ Currently working on:
 
 ---
 
-## 📈 GitHub Activity
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kvinitkarmkar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kvinitkarmkar&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kvinitkarmkar&theme=tokyonight&hide_border=true)
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=kvinitkarmkar&theme=tokyonight&no-frame=true&row=1&column=6)
-
-</div>
-
----
-
 ## 📫 Contact & Socials
 
 <div align="center">
