@@ -4,8 +4,6 @@
 
 <img src="./assets/network-graph.gif" width="480" alt="network graph animation"/>
 
-# 👋 Hey, I'm Vinit Karmkar
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=FF6B6B&center=true&vCenter=true&width=600&lines=Building+Adaptive+Intelligence...;Founder+%7C+Full-Stack+Builder;Ship+%E2%86%92+Learn+%E2%86%92+Iterate)](https://git.io/typing-svg)
 
 ![Building AIDN](https://img.shields.io/badge/Building-Adaptive%20Intelligence%20Delivery%20Network-FF6B6B?style=for-the-badge&logo=lightning&logoColor=white)
@@ -27,14 +25,6 @@ Currently working on:
 - ⛏️ **MinersBuddy** — Making mining engineering education accessible through intelligent platforms
 
 **My Philosophy:** Ship → Learn → Iterate. I believe in learning by building. I question what exists, then build what should.
-
-<div align="center">
-
-### 🛠️ Tech Stack
-
-![My Skills](https://skillicons.dev/icons?i=python,fastapi,js,html,css,react,git,figma)
-
-</div>
 
 ---
 
