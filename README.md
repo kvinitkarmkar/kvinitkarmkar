@@ -75,6 +75,6 @@ Currently working on:
 
 **P.S.** — If you're interested in adaptive learning, engineering education, or just building cool stuff, let's connect! 🤝
 
-[⬆ Back to Top](#top)
+[Back to Top](#top)
 
 </div>
