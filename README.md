@@ -22,8 +22,8 @@
 Hey! I'm a founder obsessed with building products at the intersection of **adaptive learning systems** and **practical education**.
 
 Currently working on:
-- 🧠 **Project K** — An Adaptive Intelligence Delivery Network (AIDN) that personalizes learning experiences
-- ⛏️ **MinersBuddy** — Making mining engineering education accessible through intelligent platforms
+- **Project K** — An Adaptive Intelligence Delivery Network (AIDN) that personalizes learning experiences
+- **MinersBuddy** — Making mining engineering education accessible through intelligent platforms
 
 **My Philosophy:** Ship → Learn → Iterate. I believe in learning by building. I question what exists, then build what should.
 
