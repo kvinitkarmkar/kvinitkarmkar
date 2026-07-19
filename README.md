@@ -73,8 +73,6 @@ Currently working on:
 
 <div align="center">
 
-## 🚀 Let's Build Something Amazing Together
-
 **P.S.** — If you're interested in adaptive learning, engineering education, or just building cool stuff, let's connect! 🤝
 
 [⬆ Back to Top](#top)
