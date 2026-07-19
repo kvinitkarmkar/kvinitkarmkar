@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Vinit%20Karmkar&fontSize=40&fontColor=fff&animation=fadeIn&desc=Founder%20%7C%20Full-Stack%20Builder%20%7C%20EdTech&descAlignY=75&descSize=18" width="100%"/>
+
 <img src="./assets/network-graph.gif" width="480" alt="network graph animation"/>
 
 # 👋 Hey, I'm Vinit Karmkar
@@ -10,7 +12,7 @@
 
 **Founder • Full-Stack Builder • EdTech Enthusiast**
 
-*Building intelligent learning platforms that actually solve problems*
+*Building intelligent learning systems and engineering education platforms that actually solve problems*
 
 </div>
 
@@ -25,6 +27,14 @@ Currently working on:
 - ⛏️ **MinersBuddy** — Making mining engineering education accessible through intelligent platforms
 
 **My Philosophy:** Ship → Learn → Iterate. I believe in learning by building. I question what exists, then build what should.
+
+<div align="center">
+
+### 🛠️ Tech Stack
+
+![My Skills](https://skillicons.dev/icons?i=python,fastapi,js,html,css,react,git,figma)
+
+</div>
 
 ---
 
@@ -48,6 +58,8 @@ Currently working on:
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kvinitkarmkar&layout=compact&theme=tokyonight&hide_border=true)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kvinitkarmkar&theme=tokyonight&hide_border=true)
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=kvinitkarmkar&theme=tokyonight&no-frame=true&row=1&column=6)
 
 </div>
 
