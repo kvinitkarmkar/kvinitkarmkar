@@ -28,6 +28,8 @@ Currently working on:
 **My Philosophy:** Ship → Learn → Iterate. I believe in learning by building. I question what exists, then build what should.
 
 ---
+![description](./assets/1_CRoQ6gP6uueRcECoyhSxXw.gif)
+---
 
 ## 🚀 Featured Projects
 
@@ -39,8 +41,6 @@ Currently working on:
 | 🤖 **RAG App UI** | Retrieval Augmented Generation interface exploring modern AI-powered learning interactions | HTML, JavaScript, Modern Web Stack | 🔵 Exploring |
 | 🏆 **UIDAI Hackathon 2026** | Data-driven hackathon project solving real-world problems using data | Jupyter Notebook | ✅ Completed |
 
----
-![description](./assets/1_CRoQ6gP6uueRcECoyhSxXw.gif)
 ---
 
 ## 📫 Contact & Socials
