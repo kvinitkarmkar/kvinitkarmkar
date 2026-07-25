@@ -61,7 +61,7 @@ Currently working on:
 
 <div align="center">
 
-**📧 Email:** K.vinitkarmkar@gmail.com
+**📧 Email:** k.vinitkarmkar@gmail.com
 
 ![Visitors](https://komarev.com/ghpvc/?username=kvinitkarmkar&color=blue&style=for-the-badge)
 
