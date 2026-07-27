@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vinit Kumar Karmkar — Founder, KnoriX</title>
+<meta name="description" content="Vinit Kumar Karmkar (@kvinitkarmkar) — solo founder building KnoriX, an AI teacher that learns how each student learns.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;min-width:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;scroll-behavior:auto !important}
+}
+:root{
+  --k:#000;--w:#fff;
+  --accent:#8C7CFF;--accent-2:#54E6C9;
+  --m:rgba(255,255,255,.42);--m2:rgba(255,255,255,.62);
+  --br:rgba(255,255,255,.09);--br2:rgba(255,255,255,.16);
+  --ok:#22c55e;
+}
+body{
+  background:var(--k);color:var(--w);
+  font-family:'DM Sans',sans-serif;font-weight:300;
+  font-size:15px;line-height:1.8;overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+::selection{background:rgba(140,124,255,.3);color:#fff}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.03) 2px,rgba(0,0,0,.03) 4px);pointer-events:none;z-index:1000}
+
+/* ============ NAV ============ */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:26px 64px;transition:background .4s,border-color .4s}
+nav.scrolled{background:rgba(0,0,0,.86);backdrop-filter:blur(20px);border-bottom:1px solid var(--br)}
+.nav-brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--w)}
+.nav-mono{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.nav-mono b{color:var(--accent);font-weight:400}
+.nav-links{display:flex;gap:40px}
+.nav-links a{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--m);text-decoration:none;transition:color .3s}
+.nav-links a:hover{color:var(--w)}
+.nav-status{display:flex;align-items:center;gap:9px;font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--m)}
+.pdot{width:6px;height:6px;background:var(--ok);border-radius:50%;animation:pg 2s infinite;flex:none}
+@keyframes pg{0%,100%{box-shadow:0 0 0 0 rgba(34,197,94,.6)}50%{box-shadow:0 0 0 6px rgba(34,197,94,0)}}
+@media(max-width:900px){.nav-links{display:none}nav{padding:20px 24px}}
+
+/* ============ HERO ============ */
+#hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden;text-align:center;padding:120px 24px 80px}
+#hcv{position:absolute;inset:0;z-index:0;opacity:.55}
+.hc{position:relative;z-index:2}
+.have{margin:0 auto 34px;width:104px;height:104px;border-radius:50%;overflow:hidden;border:1px solid var(--br2);opacity:0;animation:fu 1s .2s forwards}
+.have img{width:100%;height:100%;object-fit:cover;filter:grayscale(35%) contrast(1.05)}
+.hey{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--accent);margin-bottom:26px;opacity:0;animation:fu .8s .4s forwards}
+.hh{font-family:'Cormorant Garamond',serif;font-size:clamp(38px,7vw,84px);font-weight:300;line-height:1.06;letter-spacing:-.01em;opacity:0;animation:fu 1s .6s forwards}
+.hh em{font-style:italic;color:var(--m2)}
+.hs{margin-top:22px;font-size:13px;letter-spacing:.03em;color:var(--m2);max-width:520px;margin-left:auto;margin-right:auto;line-height:1.9;opacity:0;animation:fu .9s .85s forwards}
+.hactions{margin-top:40px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap;opacity:0;animation:fu .9s 1.05s forwards}
+.hbtn{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;padding:14px 26px;text-decoration:none;transition:border-color .3s,background .3s,color .3s}
+.hbtn.pri{background:var(--w);color:#000}
+.hbtn.pri:hover{background:var(--accent);color:#000}
+.hbtn.ghost{border:1px solid var(--br2);color:var(--m2)}
+.hbtn.ghost:hover{border-color:var(--w);color:var(--w)}
+.hscr{position:absolute;bottom:36px;left:50%;transform:translateX(-50%);font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:var(--m);display:flex;flex-direction:column;align-items:center;gap:12px;z-index:2;opacity:0;animation:fi 1s 1.6s forwards}
+.hscrl{width:1px;height:44px;background:linear-gradient(var(--accent),transparent);animation:sa 2s ease-in-out infinite}
+@keyframes sa{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+@keyframes fu{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes fi{from{opacity:0}to{opacity:1}}
+
+/* ============ SECTION SCAFFOLD ============ */
+.sec{padding:120px 64px;max-width:1280px;margin:0 auto}
+@media(max-width:900px){.sec{padding:80px 26px}}
+.lbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.26em;text-transform:uppercase;color:var(--accent);margin-bottom:48px;display:flex;align-items:center;gap:14px}
+.lbl::after{content:'';width:40px;height:1px;background:var(--accent);opacity:.4}
+
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1)}
+.rv.on{opacity:1;transform:none}
+
+/* ============ ABOUT ============ */
+#about{border-top:1px solid var(--br)}
+.ag{display:grid;grid-template-columns:1.1fr .9fr;gap:100px;align-items:start}
+@media(max-width:900px){.ag{grid-template-columns:1fr;gap:48px}}
+.bt{font-family:'Cormorant Garamond',serif;font-size:clamp(24px,3vw,34px);font-weight:300;line-height:1.45;margin-bottom:28px}
+.bt em{font-style:italic;color:var(--accent)}
+.ar p{color:var(--m2);line-height:2;margin-bottom:22px;font-size:13.5px}
+.ar p strong{color:var(--w);font-weight:400}
+
+.idpanel{border:1px solid var(--br);padding:0}
+.idrow{display:flex;justify-content:space-between;align-items:center;padding:18px 24px;border-bottom:1px solid var(--br)}
+.idrow:last-child{border-bottom:none}
+.idk{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--m)}
+.idv{font-family:'Space Mono',monospace;font-size:12.5px;color:var(--w);text-align:right}
+.idv.accent{color:var(--accent-2)}
+
+/* ============ BUILDING ============ */
+#building{border-top:1px solid var(--br)}
+.build-card{border:1px solid var(--br);padding:64px;position:relative;overflow:hidden}
+@media(max-width:700px){.build-card{padding:36px 26px}}
+.build-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:1px;background:linear-gradient(90deg,var(--accent),var(--accent-2),transparent)}
+.bc-top{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:28px;flex-wrap:wrap}
+.bc-name{font-family:'Cormorant Garamond',serif;font-size:clamp(28px,4vw,44px);font-weight:300}
+.bc-name em{color:var(--accent);font-style:italic}
+.bc-live{display:flex;align-items:center;gap:8px;font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--ok);white-space:nowrap}
+.bc-desc{color:var(--m2);font-size:13.5px;line-height:2;max-width:640px;margin-bottom:36px}
+.bc-tags{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px}
+.bc-tag{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:7px 14px;border:1px solid var(--br2);color:var(--m2)}
+.bc-link{display:inline-flex;align-items:center;gap:10px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--w);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:4px;transition:gap .3s,color .3s}
+.bc-link:hover{gap:16px;color:var(--accent-2)}
+.bc-link svg{width:13px;height:13px}
+
+/* ============ WORK ============ */
+#work{border-top:1px solid var(--br)}
+.work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--br);border:1px solid var(--br)}
+@media(max-width:900px){.work-grid{grid-template-columns:1fr}}
+.wcard{background:var(--k);padding:40px 32px;display:flex;flex-direction:column;transition:background .4s;position:relative}
+.wcard::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .5s}
+.wcard:hover::before{transform:scaleX(1)}
+.wcard:hover{background:rgba(140,124,255,.03)}
+.wn{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.2em;color:var(--m);margin-bottom:22px}
+.wt{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;margin-bottom:12px;line-height:1.3}
+.wb{font-size:12.5px;color:var(--m2);line-height:1.9;flex:1;margin-bottom:22px}
+.wmeta{display:flex;align-items:center;justify-content:space-between;padding-top:18px;border-top:1px solid var(--br);margin-top:auto}
+.wstack{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.08em;color:var(--m)}
+.wlinks{display:flex;gap:14px}
+.wlinks a{color:var(--m2);transition:color .25s}
+.wlinks a:hover{color:var(--accent-2)}
+.wlinks svg{width:15px;height:15px}
+.wbadge{display:inline-flex;align-items:center;gap:6px;font-family:'Space Mono',monospace;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-2);border:1px solid rgba(84,230,201,.3);padding:3px 9px;margin-bottom:16px;width:fit-content}
+
+/* ============ TIMELINE ============ */
+#journey{border-top:1px solid var(--br)}
+.tl{display:flex;flex-direction:column}
+.ti{display:grid;grid-template-columns:64px 1fr auto;gap:32px;align-items:center;padding:30px 0;border-bottom:1px solid var(--br);position:relative;overflow:hidden}
+.ti::after{content:'';position:absolute;left:0;bottom:0;right:100%;height:1px;background:var(--accent);transition:right .5s cubic-bezier(.23,1,.32,1)}
+.ti:hover::after{right:0}
+.ti:last-child{border-bottom:none}
+@media(max-width:640px){.ti{grid-template-columns:1fr;gap:6px;text-align:left}.tinum{order:1}.tibadge{order:3;justify-self:start;margin-top:8px}}
+.tinum{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--m)}
+.tiname{font-family:'Cormorant Garamond',serif;font-size:21px;font-weight:400;margin-bottom:5px}
+.tibody{font-size:12.5px;color:var(--m2);line-height:1.85;max-width:600px}
+.tibadge{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);border:1px solid rgba(140,124,255,.3);padding:5px 13px;white-space:nowrap}
+.tibadge.now{border-color:rgba(34,197,94,.35);color:var(--ok);animation:ag2 2.2s infinite}
+@keyframes ag2{0%,100%{border-color:rgba(34,197,94,.3)}50%{border-color:rgba(34,197,94,.75)}}
+
+/* ============ CONNECT ============ */
+#connect{border-top:1px solid var(--br);text-align:center;padding:150px 24px;position:relative;overflow:hidden}
+.ci{position:relative;z-index:2}
+.ch{font-family:'Cormorant Garamond',serif;font-size:clamp(36px,6.5vw,76px);font-weight:300;line-height:1.08;margin-bottom:18px}
+.ch em{color:var(--accent);font-style:italic}
+.csub{color:var(--m2);font-size:12px;letter-spacing:.06em;margin-bottom:54px;max-width:440px;margin-left:auto;margin-right:auto;line-height:1.8}
+.clinks{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;max-width:760px;margin:0 auto}
+.clink{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--m2);text-decoration:none;display:flex;align-items:center;gap:10px;padding:14px 22px;border:1px solid var(--br);transition:color .3s,border-color .3s,background .3s}
+.clink:hover{color:var(--w);border-color:var(--br2);background:rgba(255,255,255,.03)}
+.clink svg{width:14px;height:14px;opacity:.7}
+
+footer{border-top:1px solid var(--br);padding:28px 64px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px}
+@media(max-width:640px){footer{flex-direction:column;text-align:center;padding:26px}}
+.fb{font-size:10px;letter-spacing:.1em;color:var(--m)}
+.fb a{color:var(--m2);text-decoration:none;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
+.fb a:hover{color:var(--w);border-color:var(--w)}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a href="#hero" class="nav-brand">
+    <span class="nav-mono">VINIT <b>KARMKAR</b></span>
+  </a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#building">Building</a>
+    <a href="#work">Work</a>
+    <a href="#journey">Journey</a>
+  </div>
+  <div class="nav-status"><span class="pdot"></span> Building KnoriX</div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section id="hero">
+  <canvas id="hcv"></canvas>
+  <div class="hc">
+    <div class="have"><img src="https://avatars.githubusercontent.com/u/206856572?v=4" alt="Vinit Kumar Karmkar" loading="eager"></div>
+    <div class="hey">Founder — KnoriX</div>
+    <h1 class="hh">Vinit Kumar<br><em>Karmkar</em></h1>
+    <p class="hs">Solo founder building an AI teacher that learns how each student learns. Coding for less than a year — shipped from an Android phone, in the open, on GitHub.</p>
+    <div class="hactions">
+      <a href="https://knorix.vercel.app/" target="_blank" rel="noopener" class="hbtn pri">Visit KnoriX</a>
+      <a href="https://github.com/kvinitkarmkar" target="_blank" rel="noopener" class="hbtn ghost">@kvinitkarmkar on GitHub</a>
+    </div>
+  </div>
+  <div class="hscr"><span>Scroll</span><div class="hscrl"></div></div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="sec">
+    <div class="lbl rv" data-r>001 — About</div>
+    <div class="ag">
+      <div class="ar rv" data-r>
+        <p class="bt">"I started learning programming <em>recently</em>. After my laptop stopped working and I couldn't afford to repair it, I kept building."</p>
+        <p>I'm Vinit — building <strong>KnoriX</strong>, an AI learning platform that continuously personalizes teaching using knowledge graphs, adaptive pedagogy, and real-time learning intelligence.</p>
+        <p>No laptop, no team, no funding. Just GitHub, AI coding tools, and a cloud deployment pipeline — run entirely from a phone. I'd rather ship something real than wait for ideal conditions.</p>
+        <p>Outside of KnoriX, I've been going deep on knowledge graphs (Neo4j, Cypher, GraphRAG) and shipped a domain-specific RAG tool for the mining industry — <a href="https://kvinitkarmkar.github.io/kyanite/" target="_blank" rel="noopener" style="color:var(--accent-2);text-decoration:underline;text-underline-offset:3px">live demo here</a>.</p>
+      </div>
+      <div class="idpanel rv" data-r style="transition-delay:.1s">
+        <div class="idrow"><span class="idk">Based in</span><span class="idv">India</span></div>
+        <div class="idrow"><span class="idk">Focus</span><span class="idv accent">Adaptive AI · Knowledge Graphs</span></div>
+        <div class="idrow"><span class="idk">Toolchain</span><span class="idv">GitHub Mobile + AI coding tools</span></div>
+        <div class="idrow"><span class="idk">Public repos</span><span class="idv">4</span></div>
+        <div class="idrow"><span class="idk">Currently</span><span class="idv accent">Solo — building KnoriX</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BUILDING ============ -->
+<section id="building">
+  <div class="sec">
+    <div class="lbl rv" data-r>002 — Currently Building</div>
+    <div class="build-card rv" data-r>
+      <div class="bc-top">
+        <div class="bc-name">Knori<em>X</em></div>
+        <div class="bc-live"><span class="pdot"></span> Early access open</div>
+      </div>
+      <p class="bc-desc">An AI teacher that adapts to every student individually — using a knowledge graph, an adaptive intelligence delivery network, and real-time learning intelligence, instead of a one-size-fits-all course.</p>
+      <div class="bc-tags">
+        <span class="bc-tag">Knowledge Graphs</span>
+        <span class="bc-tag">React Native</span>
+        <span class="bc-tag">FastAPI</span>
+        <span class="bc-tag">Vector Search</span>
+        <span class="bc-tag">Adaptive Pedagogy</span>
+      </div>
+      <a href="https://knorix.vercel.app/" target="_blank" rel="noopener" class="bc-link">
+        View KnoriX
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17L17 7M7 7h10v10"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section id="work">
+  <div class="sec">
+    <div class="lbl rv" data-r>003 — Selected Work</div>
+    <div class="work-grid">
+
+      <div class="wcard rv" data-r>
+        <div class="wn">01 — Research</div>
+        <div class="wt">Knowledge Graph — Neo4j AuraDB</div>
+        <p class="wb">Research and implementation notes on building knowledge graphs — property graphs, Cypher, GraphRAG, and AI + knowledge-graph integration. Includes a working <em style="color:var(--m2)">KG-ai-tutor</em> module — early groundwork for KnoriX's core moat.</p>
+        <div class="wmeta">
+          <span class="wstack">Cypher · Neo4j</span>
+          <div class="wlinks">
+            <a href="https://github.com/kvinitkarmkar/knowledge-graph" target="_blank" rel="noopener" aria-label="View on GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.6.5.5 5.6.5 12c0 5.1 3.3 9.4 7.9 11 .6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.6 7.9-5.9 7.9-11C23.5 5.6 18.4.5 12 .5z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="wcard rv" data-r style="transition-delay:.08s">
+        <div class="wn">02 — Product</div>
+        <span class="wbadge">Live demo</span>
+        <div class="wt">Kyanite.ai — Mining Domain Intelligence</div>
+        <p class="wb">A dark, chat-style RAG interface built specifically for mining industry documents — DGMS safety manuals, survey data, compliance docs. Streaming answers with source citations, built as plain HTML/CSS/JS.</p>
+        <div class="wmeta">
+          <span class="wstack">RAG · SSE · No build step</span>
+          <div class="wlinks">
+            <a href="https://kvinitkarmkar.github.io/kyanite/" target="_blank" rel="noopener" aria-label="Live demo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+            <a href="https://github.com/kvinitkarmkar/kyanite" target="_blank" rel="noopener" aria-label="View on GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.6.5.5 5.6.5 12c0 5.1 3.3 9.4 7.9 11 .6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.6 7.9-5.9 7.9-11C23.5 5.6 18.4.5 12 .5z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="wcard rv" data-r style="transition-delay:.16s">
+        <div class="wn">03 — Hackathon</div>
+        <span class="wbadge">1★ · National</span>
+        <div class="wt">UIDAI Data Hackathon 2026</div>
+        <p class="wb">Aadhaar update-trend analysis at national scale — identified a 22.89% duplication rate across raw records and proposed a "Child-First" policy framework. My first national-level hackathon.</p>
+        <div class="wmeta">
+          <span class="wstack">Python · Pandas · Seaborn</span>
+          <div class="wlinks">
+            <a href="https://github.com/kvinitkarmkar/UIDAI-HACKATHON-PROJECT-2026" target="_blank" rel="noopener" aria-label="View on GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.6.5.5 5.6.5 12c0 5.1 3.3 9.4 7.9 11 .6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.6 7.9-5.9 7.9-11C23.5 5.6 18.4.5 12 .5z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOURNEY ============ -->
+<section id="journey">
+  <div class="sec">
+    <div class="lbl rv" data-r>004 — Journey</div>
+    <div class="tl">
+      <div class="ti rv" data-r>
+        <span class="tinum">i.</span>
+        <div><div class="tiname">Started coding</div><div class="tibody">Picked up programming, no formal background — learning by building, not by tutorial.</div></div>
+        <span class="tibadge">Foundation</span>
+      </div>
+      <div class="ti rv" data-r style="transition-delay:.06s">
+        <span class="tinum">ii.</span>
+        <div><div class="tiname">Laptop broke</div><div class="tibody">Couldn't afford a repair. Moved the entire workflow to an Android phone — GitHub mobile, AI coding tools, cloud deploys.</div></div>
+        <span class="tibadge">Constraint</span>
+      </div>
+      <div class="ti rv" data-r style="transition-delay:.12s">
+        <span class="tinum">iii.</span>
+        <div><div class="tiname">Shipped AIDN</div><div class="tibody">Built a WebSocket-based, multi-node rendering engine supporting 8+ content types — video, markdown, KaTeX, SVG, Mermaid, live node injection.</div></div>
+        <span class="tibadge">Engineering</span>
+      </div>
+      <div class="ti rv" data-r style="transition-delay:.18s">
+        <span class="tinum">iv.</span>
+        <div><div class="tiname">First national hackathon</div><div class="tibody">Submitted an Aadhaar data-policy analysis to the UIDAI Data Hackathon 2026 — first time competing at national level.</div></div>
+        <span class="tibadge">Milestone</span>
+      </div>
+      <div class="ti rv" data-r style="transition-delay:.24s">
+        <span class="tinum">v.</span>
+        <div><div class="tiname">Building KnoriX in the open</div><div class="tibody">Early access is live. Knowledge graph, adaptive pedagogy, and the delivery engine are all shipping in public, on GitHub.</div></div>
+        <span class="tibadge now">Now</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONNECT ============ -->
+<section id="connect">
+  <div class="ci">
+    <div class="lbl rv" data-r style="justify-content:center">005 — Connect</div>
+    <h2 class="ch rv" data-r>Let's <em>talk.</em></h2>
+    <p class="csub rv" data-r style="transition-delay:.05s">Building, hiring, investing, or just curious how KnoriX works — reach out anywhere below.</p>
+    <div class="clinks rv" data-r style="transition-delay:.1s">
+      <a href="https://github.com/kvinitkarmkar" target="_blank" rel="noopener" class="clink">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.6.5.5 5.6.5 12c0 5.1 3.3 9.4 7.9 11 .6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.6 7.9-5.9 7.9-11C23.5 5.6 18.4.5 12 .5z"/></svg>
+        GitHub
+      </a>
+      <a href="https://linkedin.com/in/kvinitkarmkar" target="_blank" rel="noopener" class="clink">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 20.4h-3.55v-5.57c0-1.33-.03-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.32V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.26 2.37 4.26 5.45v6.24zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.4H3.56V9h3.56v11.4z"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://x.com/kvinitkarmkar" target="_blank" rel="noopener" class="clink">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7.1l-5.5-7.2L4.3 22H1.2l8.1-9.3L1 2h7.3l5 6.6L18.9 2zm-1.2 18h1.8L7.4 4h-2l12.3 16z"/></svg>
+        X
+      </a>
+      <a href="https://www.instagram.com/kvinitkarmkar" target="_blank" rel="noopener" class="clink">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 3.3.15 4.8 1.7 5 5 .06 1.3.07 1.6.07 4.8s0 3.5-.07 4.8c-.15 3.3-1.7 4.8-5 5-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-3.3-.15-4.8-1.7-5-5C2.06 15.5 2.05 15.2 2.05 12s0-3.5.07-4.8c.15-3.3 1.7-4.8 5-5C8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7 .07c-4.4.2-6.7 2.5-6.9 6.9C0 8.3 0 8.7 0 12s0 3.7.07 5c.2 4.4 2.5 6.7 6.9 6.9 1.3.07 1.7.07 5 .07s3.7 0 5-.07c4.4-.2 6.7-2.5 6.9-6.9.07-1.3.07-1.7.07-5s0-3.7-.07-5c-.2-4.4-2.5-6.7-6.9-6.9C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-10.4a1.4 1.4 0 1 1-2.8 0 1.4 1.4 0 0 1 2.8 0z"/></svg>
+        Instagram
+      </a>
+      <a href="https://youtube.com/@kvinitkarmkar" target="_blank" rel="noopener" class="clink">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+        YouTube
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="fb">© 2026 Vinit Kumar Karmkar</span>
+  <span class="fb"><a href="index.html">← KnoriX</a></span>
+</footer>
+
+<script>
+// ===== nav scroll state =====
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 10), {passive:true});
+
+// ===== scroll reveal =====
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); io.unobserve(e.target); } });
+}, {threshold:.15, rootMargin:'0px 0px -60px 0px'});
+document.querySelectorAll('[data-r]').forEach(el => io.observe(el));
+
+// ===== hero constellation canvas (knowledge-graph motif) =====
+(function(){
+  const cv = document.getElementById('hcv');
+  const ctx = cv.getContext('2d');
+  const dpr = Math.min(window.devicePixelRatio||1, 2);
+  let W,H,nodes=[],tick=0;
+
+  function resize(){
+    const r = cv.parentElement.getBoundingClientRect();
+    W = r.width; H = r.height;
+    cv.width = W*dpr; cv.height = H*dpr;
+    cv.style.width = W+'px'; cv.style.height = H+'px';
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    const count = Math.max(24, Math.round((W*H)/26000));
+    nodes = Array.from({length:count}, () => ({
+      x:Math.random()*W, y:Math.random()*H,
+      vx:(Math.random()-.5)*.15, vy:(Math.random()-.5)*.15,
+      r:1+Math.random()*1.4
+    }));
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  (function draw(){
+    tick++;
+    ctx.clearRect(0,0,W,H);
+    nodes.forEach(n=>{
+      n.x+=n.vx; n.y+=n.vy;
+      if(n.x<0||n.x>W) n.vx*=-1;
+      if(n.y<0||n.y>H) n.vy*=-1;
+    });
+    for(let i=0;i<nodes.length;i++){
+      for(let j=i+1;j<nodes.length;j++){
+        const a=nodes[i], b=nodes[j];
+        const d = Math.hypot(a.x-b.x, a.y-b.y);
+        if(d < 140){
+          ctx.beginPath(); ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y);
+          ctx.strokeStyle = `rgba(140,124,255,${(1-d/140)*.22})`;
+          ctx.lineWidth = .6; ctx.stroke();
+        }
+      }
+    }
+    nodes.forEach(n=>{
+      const p = .5+.5*Math.sin(tick*.02 + n.x);
+      ctx.beginPath(); ctx.arc(n.x,n.y,n.r,0,Math.PI*2);
+      ctx.fillStyle = `rgba(255,255,255,${.25+p*.3})`; ctx.fill();
+    });
+    requestAnimationFrame(draw);
+  })();
+})();
+</script>
+</body>
+</html>
