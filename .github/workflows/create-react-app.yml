@@ -1,4 +1,4 @@
-name: Create React App in Root
+name: Create React Web App
 
 on:
   workflow_dispatch:
@@ -13,40 +13,23 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 22
 
-      - name: Clean Repository (except .git & .github)
+      - name: Create React App (Vite)
         run: |
-          find . -mindepth 1 \
-            ! -path "./.git" \
-            ! -path "./.git/*" \
-            ! -path "./.github" \
-            ! -path "./.github/*" \
-            -exec rm -rf {} +
-
-      - name: Create React App
-        run: |
-          npm init vite@latest . -- --template react --force
+          npm create vite@latest kvinitkarmkar -- --template react
+          cd kvinitkarmkar
           npm install
 
-      - name: Configure Git
+      - name: Commit and Push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit & Push
-        run: |
           git add .
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "Initialize React Vite app"
-            git push origin HEAD
-          fi
+          git commit -m "Create React Vite app: kvinitkarmkar" || echo "Nothing to commit"
+          git push
