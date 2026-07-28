@@ -35,7 +35,6 @@ Currently working on:
 |---|---|---|---|
 | **Project K** | Adaptive Intelligence Delivery Network — personalizes learning paths based on individual patterns and learning styles | Advanced learning architecture | 🟢 Active |
 | **MinersBuddy** | Mining engineering education platform with a structured, backend-driven curriculum | Python, FastAPI, Database | 🟢 Active |
-| **Knowledge Graph** | Semantic knowledge representations for intelligent, graph-based learning and better information retention | Graph architecture | 🟢 Active |
 
 ---
 
