@@ -1,0 +1,5 @@
+footer{border-top:1px solid var(--rule);padding:26px 0}
+.foot-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-faint)}
+.foot-row a{color:var(--ink-soft);text-decoration:none;border-bottom:1px solid transparent}
+.foot-row a:hover{color:var(--ink);border-color:var(--ink)}
+@media(max-width:640px){.foot-row{flex-direction:column;text-align:center}}

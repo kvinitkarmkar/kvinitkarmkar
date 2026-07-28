@@ -1,0 +1,9 @@
+#journey{border-bottom:1px solid var(--rule)}
+.chron{display:flex;flex-direction:column}
+.chron-row{display:grid;grid-template-columns:80px 1fr;gap:26px;padding:20px 0;border-top:1px solid var(--rule)}
+.chron .chron-row:last-child{border-bottom:1px solid var(--rule)}
+@media(max-width:560px){.chron-row{grid-template-columns:1fr;gap:4px}}
+.chron-tag{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--rust);padding-top:3px}
+.chron-title{font-family:'Source Serif 4',serif;font-size:17px;font-weight:500;margin-bottom:4px}
+.chron-body{font-size:13.5px;color:var(--ink-soft);line-height:1.7;max-width:520px}
+.chron-row.now .chron-tag{color:var(--sage);font-weight:600}
