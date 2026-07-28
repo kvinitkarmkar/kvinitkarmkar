@@ -23,7 +23,6 @@ Hey! I'm a founder obsessed with building products at the intersection of **adap
 
 Currently working on:
 - **Project K** — An Adaptive Intelligence Delivery Network (AIDN).
-- **MinersBuddy** — Making mining engineering education accessible through intelligent platforms
 
 **My Philosophy:**  I question what exists, then build what should. I believe in learning by building.
 
@@ -34,7 +33,6 @@ Currently working on:
 | Project | Description | Stack | Status |
 |---|---|---|---|
 | **Project K** | Adaptive Intelligence Delivery Network — personalizes learning paths based on individual patterns and learning styles | Advanced learning architecture | 🟢 Active |
-| **MinersBuddy** | Mining engineering education platform with a structured, backend-driven curriculum | Python, FastAPI, Database | 🟢 Active |
 
 ---
 
