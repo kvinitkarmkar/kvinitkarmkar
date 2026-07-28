@@ -19,10 +19,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
-          cache: npm
+          node-version: 24
 
-      - name: Clean Repository Root
+      - name: Clean Repository (except .git & .github)
         run: |
           find . -mindepth 1 \
             ! -path "./.git" \
@@ -31,21 +30,23 @@ jobs:
             ! -path "./.github/*" \
             -exec rm -rf {} +
 
-      - name: Create React App (Root)
+      - name: Create React App
         run: |
           npm init vite@latest . -- --template react --force
           npm install
 
-      - name: Commit Changes
+      - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+      - name: Commit & Push
+        run: |
           git add .
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Initialize React Vite app in repository root"
+            git commit -m "Initialize React Vite app"
             git push origin HEAD
           fi
