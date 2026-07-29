@@ -22,7 +22,7 @@
 Hey! I'm a founder obsessed with building products at the intersection of **adaptive learning systems** and **practical education**.
 
 Currently working on:
-- **KnoriX** — An Adaptive Intelligence Delivery Network (AIDN).
+- **[KnoriX](https://knorix.vercel.app/)** — An Adaptive Intelligence Delivery Network (AIDN).
 
 **My Philosophy:**  I question what exists, then build what should. I believe in learning by building.
 
@@ -32,7 +32,7 @@ Currently working on:
 
 | Project | Description | Stack | Status |
 |---|---|---|---|
-| **KnoriX** | Adaptive Intelligence Delivery Network — personalizes learning paths based on individual patterns and learning styles | Advanced learning architecture | 🟢 Active |
+| **[KnoriX](https://knorix.vercel.app/)** | Adaptive Intelligence Delivery Network — personalizes learning paths based on individual patterns and learning styles | Advanced learning architecture | 🟢 Active |
 
 ---
 
