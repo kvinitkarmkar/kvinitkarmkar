@@ -65,11 +65,37 @@ Currently working on:
 </div>
 
 ---
+<div align="center">
+
+### 🌐 Explore More
+
+<a href="https://kvinitkarmkar.vercel.app">
+<img src="https://img.shields.io/badge/Portfolio-Visit_Website-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="https://knorix.vercel.app">
+<img src="https://img.shields.io/badge/KnoriX-Live_Demo-6C63FF?style=for-the-badge"/>
+</a>
+
+</div>
 
 <div align="center">
 
 **P.S.** — If you're interested in adaptive learning, engineering education, or just building cool stuff, let's connect! 🤝
 
+---
+
+<div align="center">
+
+Thanks for stopping by ⭐
+
+If you like what I'm building,
+consider following my journey.
+
+Made with ❤️ by Vinit Karmkar
+
 [Back to Top](#top)
+
+</div>
 
 </div>
