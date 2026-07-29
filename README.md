@@ -65,7 +65,6 @@ Currently working on:
 </div>
 
 ---
-<div align="center">
 
 ### 🌐 Explore More
 
@@ -77,7 +76,6 @@ Currently working on:
 <img src="https://img.shields.io/badge/KnoriX-Live_Demo-6C63FF?style=for-the-badge"/>
 </a>
 
-</div>
 
 <div align="center">
 
