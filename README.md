@@ -17,7 +17,7 @@
 
 ---
 
-## 👋 About Me
+## 👋 [About Me](https://kvinitkarmkar.vercel.app/)
 
 Hey! I'm a founder obsessed with building products at the intersection of **adaptive learning systems** and **practical education**.
 
