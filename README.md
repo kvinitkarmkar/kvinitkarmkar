@@ -47,8 +47,6 @@ Currently working on:
 
 **📧 Email:** k.vinitkarmkar@gmail.com
 
-![Visitors](https://komarev.com/ghpvc/?username=kvinitkarmkar&color=blue&style=for-the-badge)
-
 </div>
 
 ---
