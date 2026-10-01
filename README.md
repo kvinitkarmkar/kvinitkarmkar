@@ -32,7 +32,8 @@ Currently working on:
 
 | Project | Description | Stack | Status |
 |---|---|---|---|
-| **[KnoriX](https://knorix.vercel.app/)** | Adaptive Intelligence Delivery Network — personalizes learning paths based on individual patterns and learning styles | Advanced learning architecture | 🟢 Active |
+| **[MinersBuddy](https://minersbuddy.in)** | Mining exams preparation platform | 🟢 Active|
+| **[KnoriX](https://knorix.vercel.app)** | Adaptive Intelligence Delivery Network — personalizes learning paths based on individual patterns and learning styles | Advanced learning architecture | ⏭️ Next |
 
 ---
 
