@@ -22,7 +22,7 @@
 Hey! I'm a founder obsessed with building products at the intersection of **adaptive learning systems** and **practical education**.
 
 Currently working on:
-- **[KnoriX](https://knorix.vercel.app/)** — An Adaptive Intelligence Delivery Network (AIDN).
+- **[MinersBuddy](https://minersbuddy.in)** — An advanced learning model designed to help miners learn faster.
 
 **My Philosophy:**  I question what exists, then build what should. I believe in learning by building.
 
