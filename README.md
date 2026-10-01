@@ -33,7 +33,7 @@ Currently working on:
 | Project | Description | Stack | Status |
 |---|---|---|---|
 | **[MinersBuddy](https://www.minersbuddy.in)** | Mining exams preparation platform | Advanced learning architecture | 🟢 Active|
-| **[Mino](https://mino.minersbuddy.in)** | Mining domain expert Graph RAG Ai chat system | Graph RAG (sementic search) | 🟢 Active|
+| **[Mino](https://mino.minersbuddy.in)** | Mining domain Ai expert chat system | Graph RAG (sementic search) | 🟢 Active|
 | **[KnoriX](https://knorix.vercel.app)** | Adaptive Intelligence Delivery Network — personalizes learning paths based on individual patterns and learning styles | Advanced learning architecture | ⏭️ Next |
 
 ---
